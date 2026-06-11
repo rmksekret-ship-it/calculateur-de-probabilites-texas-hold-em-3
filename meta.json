@@ -1,0 +1,46 @@
+{
+  "name": "Calculateur de Probabilités Texas Hold'em",
+  "description": "Calculez instantanément vos chances de victoire au Texas Hold",
+  "theme": "tool",
+  "design_theme": "night-broadcast",
+  "structure_preset": "editorial-rail",
+  "render_direction": "signal-bento",
+  "page_blueprint": "signal-matrix",
+  "language": "fr",
+  "country": "FR",
+  "url": null,
+  "expected_url": "https://calculateur-de-probabilites-texas-hold-em-3.onrender.com",
+  "created": "2026-06-11T01:46:32.034238+00:00",
+  "owner_user_id": "user-1774825923424-663",
+  "owner_username": "inso",
+  "owner_display_name": "Inso",
+  "provider_space_id": "new-sites",
+  "provider_space_name": "New Sites",
+  "status": "generated",
+  "run_id": "run-1781142081295",
+  "external_site_request_id": null,
+  "external_client_ref": null,
+  "external_source_label": null,
+  "source_type": "generated",
+  "publish_target": "render",
+  "mode": "production",
+  "github": {
+    "status": "pending"
+  },
+  "deployment": {
+    "status": "pending"
+  },
+  "qa": {
+    "status": "pending"
+  },
+  "features": [
+    "Hero pattern: editorial",
+    "Proof module: rail",
+    "Design theme: Night Broadcast",
+    "Render direction: Signal Bento",
+    "Page blueprint: Signal Matrix",
+    "Runtime mode: analysis_tool",
+    "Generation mode: template_fallback",
+    "Artifact rendered, awaiting QA and deployment"
+  ]
+}
