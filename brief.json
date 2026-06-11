@@ -1,0 +1,311 @@
+{
+  "run_id": "run-1781142081295",
+  "job_index": 3,
+  "params": {
+    "owner_user_id": "user-1774825923424-663",
+    "owner_username": "inso",
+    "owner_display_name": "Inso",
+    "count": 3,
+    "archetype": "tool",
+    "market": "France",
+    "language": "fr",
+    "country": "FR",
+    "brief": "Калькулятор вероятности победы для Техасского Холдем-покера.",
+    "notes": "Нужно сделать калькулятор, который будет в % показывать вероятность выигрыша 1-2-3 игрока. При наличии определенных карт на флопе-тёрне и ривере.",
+    "import_notes": "",
+    "growth_job_id": "",
+    "growth_slug": "",
+    "growth_kind": "",
+    "external_site_request_id": "",
+    "external_client_ref": "",
+    "external_source_label": "",
+    "dashboard_mode": "builder",
+    "network_site_format": "forum",
+    "network_primary_topic": "",
+    "network_primary_geo": "",
+    "network_domain_pool": "",
+    "network_hosting_pool": "",
+    "network_dns_strategy": "auto_pool_assign",
+    "network_domain_flow": "manual",
+    "network_content_strategy": "",
+    "network_model_concept": "google/gemini-2.5-flash-lite:nitro",
+    "network_model_seo": "google/gemini-2.5-flash-lite:nitro",
+    "network_model_build": "google/gemini-2.5-flash",
+    "network_model_qa": "anthropic/claude-haiku-4.5",
+    "network_model_growth": "google/gemini-2.5-flash-lite:nitro",
+    "network_blueprint_id": "",
+    "mode": "production",
+    "run_kind": "generated_batch",
+    "publish_target": "render",
+    "requested_publish_target": "render",
+    "provider_space_id": "new-sites",
+    "provider_space_name": "New Sites",
+    "allow_url_fallback": false,
+    "railway_project_id_override": "",
+    "railway_environment_id_override": "",
+    "railway_service_id_override": "",
+    "railway_service_name_override": "",
+    "github_repo_private": false,
+    "stage_models": {
+      "ideation": "google/gemini-2.5-flash-lite:nitro",
+      "spec": "google/gemini-2.5-flash",
+      "copy": "google/gemini-2.5-flash-lite:nitro",
+      "qa": "anthropic/claude-haiku-4.5",
+      "escalation": "anthropic/claude-sonnet-4.6"
+    },
+    "archetype_display": "tool",
+    "archetype_mix": [
+      "tool"
+    ]
+  },
+  "site_spec": {
+    "slug": "calculateur-de-probabilites-texas-hold-em-3",
+    "theme": {
+      "name": "Night Broadcast",
+      "slug": "night-broadcast",
+      "eyebrow": "Signal After Dark",
+      "family": "night-broadcast",
+      "moods": [
+        "night",
+        "electric",
+        "urban",
+        "sharp"
+      ],
+      "archetypes": [
+        "tool",
+        "generator",
+        "calculator"
+      ],
+      "niches": [
+        "media tools",
+        "alerts",
+        "analytics",
+        "stream tools",
+        "ops"
+      ],
+      "keywords": [
+        "broadcast",
+        "signal",
+        "night",
+        "urban",
+        "electric"
+      ],
+      "token_index": [
+        "after",
+        "alerts",
+        "analytics",
+        "broadcast",
+        "calculator",
+        "dark",
+        "electric",
+        "generator",
+        "media",
+        "night",
+        "ops",
+        "sharp",
+        "signal",
+        "stream",
+        "tool",
+        "tools",
+        "urban"
+      ],
+      "font_embed": "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@400;500;600;700&display=swap",
+      "display_font": "\"Space Grotesk\", sans-serif",
+      "body_font": "\"Inter\", sans-serif",
+      "layout": "asymmetric",
+      "card_style": "neon",
+      "button_style": "glow",
+      "decor_style": "scanlines",
+      "hero_template": "0.88fr 1.12fr",
+      "seo_template": "1.18fr 0.82fr",
+      "feature_columns": 2,
+      "faq_columns": 3,
+      "hero_min_height": "78vh",
+      "panel_radius": "28px",
+      "card_radius": "26px",
+      "chip_radius": "999px",
+      "button_radius": "18px",
+      "outline_width": "1px",
+      "backdrop_blur": "16px",
+      "palette": {
+        "bg": "linear-gradient(135deg, #09090b 0%, #1f1147 44%, #0f172a 100%)",
+        "surface": "rgba(12, 10, 26, 0.82)",
+        "surface_border": "rgba(167,139,250,0.16)",
+        "text": "#f8f7ff",
+        "muted": "#c4b5fd",
+        "accent": "#a78bfa",
+        "accent_alt": "#22d3ee",
+        "hero_glow": "rgba(34, 211, 238, 0.16)",
+        "button_text": "#0f1026",
+        "panel_alt": "rgba(255,255,255,0.04)",
+        "shadow": "0 30px 96px rgba(3, 2, 10, 0.42)",
+        "input_fill": "rgba(255,255,255,0.04)"
+      }
+    },
+    "structure": {
+      "name": "Editorial Rail",
+      "slug": "editorial-rail",
+      "hero_variant": "editorial",
+      "proof_variant": "rail",
+      "section_order": [
+        "seo",
+        "features",
+        "proof",
+        "faq"
+      ],
+      "feature_columns": 2,
+      "faq_columns": 2,
+      "family": "editorial",
+      "moods": [
+        "calm",
+        "trust",
+        "luxury"
+      ],
+      "archetypes": [
+        "calculator",
+        "generator",
+        "tool"
+      ],
+      "niches": [
+        "property",
+        "documents",
+        "consulting",
+        "insurance"
+      ],
+      "keywords": [
+        "editorial",
+        "rail",
+        "storytelling",
+        "magazine"
+      ],
+      "token_index": [
+        "calculator",
+        "calm",
+        "consulting",
+        "documents",
+        "editorial",
+        "faq",
+        "features",
+        "generator",
+        "insurance",
+        "luxury",
+        "magazine",
+        "proof",
+        "property",
+        "rail",
+        "seo",
+        "storytelling",
+        "tool",
+        "trust"
+      ]
+    },
+    "render_direction": "signal-bento",
+    "render_direction_name": "Signal Bento",
+    "page_blueprint": "signal-matrix",
+    "page_blueprint_name": "Signal Matrix",
+    "title": "Calculateur de Probabilités Texas Hold'em",
+    "tagline": "Un signal compact pour décider plus vite.",
+    "description": "Calculez instantanément vos chances de victoire au Texas Hold",
+    "feature_prefix": "Bloc",
+    "action": "Utiliser l'outil",
+    "cta_primary": "Voir la suite",
+    "cta_secondary": "Consulter la FAQ",
+    "inputs": [
+      {
+        "id": "primary",
+        "label": "Texte ou besoin",
+        "type": "text",
+        "placeholder": "Votre besoin principal",
+        "weight": 1.0
+      },
+      {
+        "id": "context",
+        "label": "Contexte",
+        "type": "text",
+        "placeholder": "Situation ou objectif",
+        "weight": 1.0
+      },
+      {
+        "id": "scope",
+        "label": "Intensité",
+        "type": "number",
+        "placeholder": "3",
+        "weight": 0.3
+      }
+    ],
+    "hero_metrics": [
+      {
+        "value": "Signal Bento",
+        "label": "Cadence"
+      },
+      {
+        "value": "3",
+        "label": "Entrées"
+      },
+      {
+        "value": "Résultat recommandé",
+        "label": "Sortie"
+      }
+    ],
+    "trust_labels": [
+      "Signal Bento",
+      "Voir la suite",
+      "Résultat recommandé",
+      "Utilitaire immédiat",
+      "Structure SEO claire"
+    ],
+    "result_label": "Résultat recommandé",
+    "result_unit": "",
+    "runtime_mode": "analysis_tool",
+    "page_variant": "console",
+    "faq_topic": "outil numérique",
+    "faq_entries": [
+      {
+        "question": "Pourquoi utiliser cet outil pour outil numérique ?",
+        "answer": "Il aide à cadrer le besoin rapidement et à orienter vers une prochaine action claire sur le marché France."
+      },
+      {
+        "question": "Le résultat est-il immédiat ?",
+        "answer": "Oui. L'interface est pensée pour une réponse rapide, lisible et exploitable dès la première interaction."
+      },
+      {
+        "question": "Cette page est-elle adaptée au SEO ?",
+        "answer": "Oui. La structure mélange utilité, clarté éditoriale et signaux de confiance sans surcharger l'expérience."
+      }
+    ],
+    "seo_paragraphs": [
+      "Cette page capte une intention forte autour de outil numérique et la transforme en action utile pour un public situé sur France.",
+      "Le format hero-first accélère la compréhension, réduit les frictions et améliore la lisibilité sur mobile comme sur desktop.",
+      "Le socle reste volontairement simple pour faciliter les tests, la QA continue et les variations SEO."
+    ],
+    "feature_cards": [
+      {
+        "title": "Bloc de flux",
+        "text": "L'outil isole un signal narrative à partir d'un sujet concret comme outil numérique."
+      },
+      {
+        "title": "Signal mesuré",
+        "text": "Le parcours Editorial Rail garde l'interface contextuelle même quand l'entrée est plus dense."
+      },
+      {
+        "title": "Action opératoire",
+        "text": "La prochaine action devient argumentée grâce à une sortie pensée pour une décision rapide."
+      }
+    ],
+    "proof_cards": [
+      {
+        "title": "Signal 01",
+        "text": "Night Broadcast cadre la page avec une lecture narrative qui rassure dès le premier écran."
+      },
+      {
+        "title": "Signal 02",
+        "text": "Editorial Rail met le résultat en avant avec une hiérarchie contextuelle et directement exploitable."
+      },
+      {
+        "title": "Signal 03",
+        "text": "Le CTA mène vers une action argumentée, sans exposer l'utilisateur à un écran inutile."
+      }
+    ],
+    "generation_mode": "template_fallback"
+  }
+}
